@@ -32,3 +32,82 @@ sudo vim /etc/hosts
 #   :q to quit
 #   :wq to save and quit
 
+----------------------------------------------------------------------------
+
+🔑 Login & Session
+ssh user@hostname – Connect to a remote server via SSH
+exit – Close the session
+
+📂 File and Directory Commands
+Command	Description
+ls -	List files in current directory
+ls -l	 - Detailed file list
+ls -a	- Show hidden files
+cd directory -	Change directory
+cd ..	 - Move up one directory
+pwd	Show - current path
+mkdir name -	Create a directory
+rmdir name -	Delete a directory
+rm file -	Delete a file
+rm -r  - dir	Delete directory and contents
+cp src - dest	Copy file
+mv src - dest	Move or rename file
+
+📄 File Content
+Command	Description
+cat file -	Display file content
+more file -	View file page-by-page
+less file -	View file with scroll
+head file -	First 10 lines
+tail file -	Last 10 lines
+tail -f file -	Monitor log file in real-time
+nano file -	Open file in nano editor
+vim file -	Open file in vim editor
+
+🔍 Searching
+Command	Description
+find /path -name - file	Find file by name
+grep "text" file -	Search text in file
+grep -r "text" dir -	Search recursively in directory
+
+⚙️ Process & System Monitoring
+Command	Description
+top	 - Show real-time processes
+ps aux	 - List all running processes
+kill PID	 - Kill a process
+df -h	 - Show disk space
+du -sh *	- Show size of all files/folders
+free -h	- Show RAM usage
+uptime	- Show system uptime
+whoami	- Show logged in user
+hostname	- Show system hostname
+
+🔧 Networking
+Command	Description
+ifconfig / ip a	- Show IP address
+ping domain.com	- Ping a host
+netstat -tulnp	- Show open ports and listening services
+curl url	- Fetch data from URL
+wget url	- Download file from URL
+scp file user@host:/path/	- Copy file to remote server
+
+🔒 Permissions
+Command	Description
+chmod +x file	- Make file executable
+chmod 755 file	- Set file permission
+chown user:group - file	Change file ownership
+
+🛠️ Package Management (Debian/Ubuntu)
+Command	Description
+sudo apt update	- Update package list
+sudo apt upgrade	- Upgrade packages
+sudo apt install package	- Install package
+sudo apt remove package	- Remove package
+
+🧰 System Control
+Command	Description
+reboot	- Reboot server
+shutdown now - Shutdown immediately
+systemctl status	- Show system service status
+systemctl restart service	- Restart service
+
