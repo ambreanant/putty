@@ -1,0 +1,14 @@
+search in putty
+grep -r "string_to_search" /path/to/folder
+
+---------install repo using putty ---------
+sudo yum info cobrad (check new build is pending to install)
+sudo yum clean all (cleaning repo)
+sudo yum install cobrad (to install pending build)
+----------------------------------------------------
+
+ssh anant.ambre@qa-ct3  (To connect to QA-ct3 server using putty)
+
+------------------------------------------------------
+
+curl ifconfig.me (to check ip address)
