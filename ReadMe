@@ -12,3 +12,23 @@ ssh anant.ambre@qa-ct3  (To connect to QA-ct3 server using putty)
 ------------------------------------------------------
 
 curl ifconfig.me (to check ip address)
+
+--------------------------------------------
+sudo nano filename: Open filename with nano and root privileges.
+sudo vim filename: Open filename with vim and root privileges.
+
+nano:
+sudo nano /etc/hosts
+# Edit text, then press:
+#   Ctrl+O to save
+#   Ctrl+X to exit
+
+vim:
+sudo vim /etc/hosts
+# Press:
+#   i to enter insert mode
+#   Esc to leave insert mode
+#   :w to save
+#   :q to quit
+#   :wq to save and quit
+
